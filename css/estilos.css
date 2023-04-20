@@ -12,3 +12,8 @@ body{
     border: 1px solid black;
     color: #000;
 }
+header{
+    background-color: #2878ab;
+    padding-left: 5px;
+    color: #fff;
+}
