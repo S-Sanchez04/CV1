@@ -12,3 +12,13 @@ body{
     border: 1px solid black;
     color: #000;
 }
+nav{
+    background-color: #2878ab;
+}
+hr{
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 20px;
+    height: 0.1px;
+    background-color: #fff;
+}
