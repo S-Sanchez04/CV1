@@ -22,3 +22,12 @@ hr{
     height: 0.1px;
     background-color: #fff;
 }
+nav ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    color: #fff;
+}
+nav a{
+    color: #fff;
+}
