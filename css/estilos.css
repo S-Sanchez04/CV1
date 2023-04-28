@@ -12,3 +12,12 @@ body{
     border: 1px solid black;
     color: #000;
 }
+section
+{
+    background-color: gray;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: inline-block;
+    color: beige;
+}
