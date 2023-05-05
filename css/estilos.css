@@ -1,7 +1,6 @@
 *{
     border: 1px dotted tomato;
-    padding-block: 2px;
-    display: block;
+    padding: 2px;
 }
 body{
     margin: 0 auto;
@@ -10,14 +9,15 @@ body{
     line-height: 1.5;
     padding: 10px 20px;
     border: 1px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
     color: #000;
 }
 section
 {
-    background-color: gray;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    display: inline-block;
-    color: beige;
+    color: black;
 }
