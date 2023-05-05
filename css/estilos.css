@@ -1,7 +1,6 @@
 *{
     border: 1px dotted tomato;
-    padding-block: 2px;
-    display: block;
+    padding: 2px;
 }
 body{
     margin: 0 auto;
@@ -16,14 +15,16 @@ header{
     background-color: #2878ab;
     padding-left: 5px;
     color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;;
 }
 header img{
-    margin-right: 20px;
-    display: inline-block;
-    width: 300px;
+    width: 20vw;
+    height: auto;
 }
 
 header hgroup{
-    display: inline-block;
-    width: 650px;
+    font-size: 1.5vw;
 }
