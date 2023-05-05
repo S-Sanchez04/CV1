@@ -1,7 +1,6 @@
 *{
     border: 1px dotted tomato;
-    padding-block: 2px;
-    display: block;
+    padding: 2px;
 }
 body{
     margin: 0 auto;
@@ -16,18 +15,24 @@ nav{
     background-color: #2878ab;
 }
 hr{
-    margin-left: 25px;
-    margin-right: 25px;
-    border: 20px;
-    height: 0.1px;
+    margin: 1vw;
+    height: 0.1vw;
     background-color: #fff;
 }
 nav ul{
-    display: inline-block;
+    display: flex;
     vertical-align: top;
-    margin-left: 10px;
+    margin: 1.5vw;
     color: #fff;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-flow: row wrap;
 }
 nav a{
+    color: #fff;
+}
+nav il{
+    display: flex;
+    vertical-align: top;
     color: #fff;
 }
