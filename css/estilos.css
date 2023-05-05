@@ -1,7 +1,6 @@
 *{
     border: 1px dotted tomato;
-    padding-block: 2px;
-    display: block;
+    padding: 2px;
 }
 body{
     margin: 0 auto;
@@ -9,19 +8,47 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     padding: 10px 20px;
-    border: 1px solid black;
-    color: #000;
+}
+body div{
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
 }
 section{
-    display: inline-block;
-    width: 695px;
+    width: 60%;
+    padding: 0.5vw 1vw;
 }
 aside{
-    float: right;
-    width: 300px;
+    width: 40%;
+    align-self: stretch;
+    padding: 0.5vw 1vw;
     background-color: #e9faf9;
 }
-aside h3{
+div h4{
     color: #2878ab;
     font-weight: bolder;
+}
+div ul{
+    color: #2878ab;
+}
+div li{
+    color: black;
+    list-style: none;
+}
+article ul li{
+    margin-left: 5vw;
+    list-style: disc;
+}
+article li{
+    margin-left: 1vw;
+}
+article ul{
+    color: #004aad;
+}
+aside ul li{
+    list-style: disc;
+    margin-left: 2vw;
+}
+article p{
+    padding-left: 2vw;
 }
